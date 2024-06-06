@@ -138,7 +138,7 @@ temp_max = 500
 
 # 請在下面的 API key 欄位輸入您申請的 API key。
 key = st.text_input('輸入您的openai API key')
-input_key=st.secretes["api_key"]
+input_key=st.secrets["api_key"]
 openai.api_key = input_key
 
 # 設定網頁的字體
